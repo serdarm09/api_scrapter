@@ -9,8 +9,9 @@ import time
 BEARER_TOKEN = "xx495b79cc-a506-4525-9c9a-9aa10f9fac5a"
 CLIENT_ID    = "1890ae2c-0adf-47bb-bc00-31ff5e57305b"
 
-EXCEL_PATH   = r"c:\Users\user\Desktop\yedek10\LİSTE_328.xlsx"
-OUTPUT_PATH  = r"c:\Users\user\Desktop\yedek10\LİSTE_328_TAM_SONUC.xlsx"
+EXCEL_PATH   = "/root/api_scrapter/LİSTE_328.xlsx"
+OUTPUT_PATH  = "/root/api_scrapter/LİSTE_328_TAM_SONUC.xlsx"
+
 KAYIT_ARALIGI = 1000   # Her 1000 satırda bir ara kayıt
 SLEEP         = 0.2    # İstek arası bekleme (saniye) — hızı/ban riskini dengeler
 
@@ -145,3 +146,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
